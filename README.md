@@ -88,8 +88,8 @@ flutter run
 
 | Button | Action | Description |
 |--------|--------|-------------|
-| Up | Adjust Flag | If flag=0: set to 4. If flag=1-7: decrease by 1 (higher priority) |
-| Down | Adjust Flag | If flag=0: set to 4. If flag=1-7: increase by 1 (lower priority) |
+| Up | Adjust Flag | If flag=0: set to 4. If flag>1: decrease by 1 (higher priority). If flag=1: stays at 1 |
+| Down | Adjust Flag | If flag=0: set to 4. If flag<7: increase by 1 (lower priority). If flag=7: stays at 7 |
 
 ## 📱 Usage
 
@@ -143,7 +143,7 @@ flutter test
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! Please follow these guidelines:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -165,7 +165,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## 📚 Resources
 
 - [AnkiDroid Documentation](https://github.com/ankidroid/Anki-Android/wiki)
-- [Brilliant Halo SDK](https://brilliant.xyz/docs)
+- [Brilliant Halo SDK](https://docs.brilliant.xyz/)
 - [Flutter Documentation](https://flutter.dev/docs)
 - [Anki Manual](https://docs.ankiweb.net/)
 
@@ -178,7 +178,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## 📮 Support
 
 - **Issues**: [GitHub Issues](https://github.com/CyberSyntax/AnkiLens/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/CyberSyntax/AnkiLens/discussions)
 - **Wiki**: [Project Wiki](https://github.com/CyberSyntax/AnkiLens/wiki)
 
 ## 🗺 Roadmap
