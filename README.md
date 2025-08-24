@@ -81,8 +81,8 @@ flutter run
 |---------|--------|-------------|
 | Single Tap | Good (3) | Card was recalled correctly |
 | Double Tap | Again (1) | Card needs more review |
-| Triple Tap | Undo | Revert last review action |
-| Long Press | Bury Card | Hide card from current session |
+| Long Press | Undo | Revert last review action |
+| Triple Tap | Bury Card | Hide card from current session |
 
 ### 8bitdo Controller (Optional)
 
