@@ -78,8 +78,9 @@ flutter run
 ### On-Glass Gestures
 
 | Gesture | Action | Description |
-|---------|--------|-------------|
-| Single Tap | Good (3) | Card was recalled correctly |
+|--------------------------------|----------|----------------------------------|
+| Single Tap | Show Answer | Reveals the answer on the card |
+| Single Tap (after answer shown) | Good (3) | Card was recalled correctly |
 | Double Tap | Again (1) | Card needs more review |
 | Long Press | Undo | Revert last review action |
 | Triple Tap | Bury Card | Hide card from current session |
