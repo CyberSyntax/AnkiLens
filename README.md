@@ -172,9 +172,8 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## 🐛 Known Issues
 
-- Initial connection may take 5-10 seconds
-- Battery life varies based on review frequency (typical: 4-6 hours)
-- Some special card types (cloze with multiple deletions) have limited support
+- Battery life varies based on review frequency
+- Some special card types have limited support
 
 ## 📮 Support
 
